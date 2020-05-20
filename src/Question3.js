@@ -1,7 +1,13 @@
 /* 
-* @file Job
+* @file PipeLine Job
 */
 
+import React from 'react';
+import moment from 'moment';
+
+/* 
+ * Job
+*/
 function Job({name, status, time}) {
     return (
         <div>
